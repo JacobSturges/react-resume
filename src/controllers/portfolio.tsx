@@ -65,7 +65,7 @@ export const Portfolio: React.FC = () => {
     <Section id="portfolio" title="Portfolio">
       <Stack
         horizontal
-        tokens={{childrenGap: 20}}
+        tokens={{childrenGap: 40}}
         wrap
         horizontalAlign="center"
       >

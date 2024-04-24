@@ -24,7 +24,7 @@ const Skill: React.FC<SkillProps> = ({name, text, icon}) => {
     <Stack
       styles={{root: skillStyles}}
       horizontalAlign="center"
-      tokens={{childrenGap: 16}}
+      tokens={{childrenGap: 12}}
     >
       <StackItem>
         <FontAwesomeIcon icon={icon} size="3x" />
@@ -44,7 +44,7 @@ export const Skills: React.FC = () => {
     <Section id="skills" title="My Skills">
       <Stack
         horizontal
-        tokens={{childrenGap: 20}}
+        tokens={{childrenGap: 40}}
         wrap
         horizontalAlign="center"
       >

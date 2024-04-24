@@ -1,0 +1,39 @@
+{
+  "name": "react-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node esbuild.start.config.js -w",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "author": "Jacob Sturges",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudinary/react": "^1.13.0",
+    "@cloudinary/url-gen": "^1.19.0",
+    "@fluentui/react": "^8.115.6",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "esbuild-serve": "^1.0.1",
+    "number-to-words": "^1.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/number-to-words": "^1.2.3",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.34.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  }
+}

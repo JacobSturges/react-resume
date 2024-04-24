@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES6",
+    "sourceMap": true,
+    "removeComments": true,
+    "lib": [
+      "es2019",
+      "dom"
+    ],
+    "outDir": "./build",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@controllers/*": [
+        "./src/controllers/*"
+      ],
+      "@core/*": [
+        "./src/core/*"
+      ],
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*",
+    "__tests__/**/*",
+    "app.spec.tsx",
+  ]
+}

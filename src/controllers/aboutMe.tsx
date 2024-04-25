@@ -41,11 +41,11 @@ export const AboutMe: React.FC = () => {
         </StackItem>
         <StackItem align="center">
           <Text>
-            I am a Senior Software Engineer based in Amsterdam, Netherlands,
-            originally from Australia. I have {diffWord} years of professional
-            experience in software development, during which I have acquired
+            I am a Senior Software Engineer originally from Australia but now
+            based in Amsterdam, Netherlands. During my {diffWord} years of
+            professional experience in software development, I have acquired
             expertise across a diverse array of technologies. My commitment to
-            continuous learning and problem-solving is reflected in my high
+            continuous learning and problem-solving is reflected in my elevated
             level of technical proficiency. I am driven by a strong passion for
             innovation and am eager to contribute to any team by leveraging my
             skills to address the challenges at hand.
